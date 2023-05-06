@@ -23,6 +23,7 @@ h2 {
 #logo {
     float: left;
     font-size: 200%;
+    margin-left: 30px;
 }
 
 #menu {
@@ -63,7 +64,8 @@ h2 {
     position: relative;
 }
 
-#cover-text, #cover-text h2 {
+#cover-text,
+#cover-text h2 {
     color: #fff
 }
 
@@ -106,5 +108,31 @@ h2 {
     bottom: 30px;
     right: 150px;
 
-    position: absolute; 
+    position: absolute;
+}
+
+/* Club Ethos */
+
+#club-ehtos {
+    height: 600px;
+}
+
+#left-about {
+    padding-top: 30px;
+    Width: 33%;
+    float: left;
+    background-color: blue;
+}
+
+#right-about {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background-color: silver;
+}
+
+#center-about {
+    width: 33%;
+    margin: 0 auto;
+    background-color: green;
 }
