@@ -247,50 +247,6 @@ footer {
     width: 100%;
 }
 
-/* Media Queries */
-
-
-/* For Larger to Medium Screens size from 1200px wide and down */
-
-@media screen and (max-width: 1200px) {
-    #club-ethos {
-        width: 65%;
-        height: 1200px;
-        margin: 0 auto;
-    }
-
-    #welcome {
-        padding: 30px 0;
-        margin: 0;
-    }
-
-    #left-about,
-    #right-about {
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-
-    #center-about {
-        clear: both;
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-
-    #times>div {
-        width: 100%;
-        clear: both;
-        height: 150px;
-        padding: 0;
-    }
-
-    hr {
-        display: none;
-    }
-
-}
-
 /* Form */
 
 .form-section {
@@ -347,6 +303,51 @@ footer {
 }
 
 
+/* Media Queries */
+
+
+/* For Larger to Medium Screens size from 1200px wide and down */
+
+@media screen and (max-width: 1200px) {
+    #club-ethos {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #welcome {
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    #left-about,
+    #right-about {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #center-about {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #times>div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+    }
+
+    hr {
+        display: none;
+    }
+
+}
+
+
 /* For Medium Screen Sizes from 950px and Down */
 
 @media screen and (max-width: 950px) {
@@ -390,7 +391,6 @@ footer {
         column-count: 3;
     }
 }
-
 
 /* For small screens sizes 800px and down */
 @media screen and (max-width: 800px) {
